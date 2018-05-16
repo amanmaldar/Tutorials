@@ -1,5 +1,12 @@
 #First class fucntions
 
+# A programming language is said to have First-class functions when functions in that language are treated like any other variable. 
+# For example, in such a language, a function can be passed as an argument to other functions, can be returned by another function 
+# and can be assigned as a value to a variable.
+# references
+# https://www.youtube.com/watch?v=kr0mpwqttM0
+# https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function
+
 def adder(number):
     return number + number;
 
@@ -41,4 +48,6 @@ print "Calling the square function from function: ", result
 
 result = mapping_first_class(cube, numbers)
 print "Calling the cube function from function: ", result
+
+
 
