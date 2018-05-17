@@ -34,3 +34,18 @@ add_logger(4,5)
 
 sub_logger(10,5)
 sub_logger(20,10)
+
+
+'''
+The code generates the example.log file. It looks like this,
+INFO:root:Running "add" with arguments (3, 3)
+INFO:root:Running "add" with arguments (4, 5)
+INFO:root:Running "sub" with arguments (10, 5)
+INFO:root:Running "sub" with arguments (20, 10)
+INFO:root:Running "add" with arguments (3, 3)
+INFO:root:Running "add" with arguments (4, 5)
+INFO:root:Running "sub" with arguments (10, 5)
+INFO:root:Running "sub" with arguments (20, 10)
+
+
+'''
