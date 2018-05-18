@@ -1,4 +1,7 @@
 # closure functions and variables.
+# closure takes advantage of first class functions.
+# closure returns the inner function that remembers and has access to variables local to the scope (scope defined by outer fucntion)
+# in which they (inner function and variables) are created.
 # In simple terms a closure is an inner fucntion that rememebr and has access to variables in local scope in which it (inner fucntion)
 # has been created, even when outer function has finished executing.
 
